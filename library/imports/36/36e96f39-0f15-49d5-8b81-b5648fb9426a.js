@@ -50,7 +50,7 @@ var LodingScene = /** @class */ (function (_super) {
         G_1.G.gameRoot = this.gameRoot.getComponent(GameRoot_1.GameRoot);
     };
     LodingScene.prototype.start = function () {
-        cc.director.setDisplayStats(false);
+        cc.debug.setDisplayStats(false);
         G_1.G.gameRoot.showMaskMessage("正在加载资源");
         setTimeout(function () {
             G_1.G.gameRoot.hideMaskMessage();

@@ -29,7 +29,7 @@ export class LodingScene extends cc.Component {
     }
 
     start() {
-        cc.director.setDisplayStats(false);
+        cc.debug.setDisplayStats(false);
         G.gameRoot.showMaskMessage("正在加载资源");
         setTimeout(()=>{
             G.gameRoot.hideMaskMessage();

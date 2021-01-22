@@ -44,14 +44,14 @@ export class NextWebSocket {
     }
 
     public on(name: string, cb: Function, target?: any) {
-        this.eventTarget.on(name, (event) => {
-            cb.apply(target, [event.detail]);
+        this.eventTarget.on(name, (detail) => {
+            cb.apply(target, [detail]);
         }, target);
     }
 
     public once(name: string, cb: Function, target?: any) {
-        this.eventTarget.once(name, (event) => {
-            cb.apply(target, event.detail);
+        this.eventTarget.once(name, (detail) => {
+            cb.apply(target, [detail]);
         }, target);
     }
 

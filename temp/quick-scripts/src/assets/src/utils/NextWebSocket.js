@@ -48,13 +48,13 @@ var NextWebSocket = /** @class */ (function () {
         this.ws.send(jsonStr);
     };
     NextWebSocket.prototype.on = function (name, cb, target) {
-        this.eventTarget.on(name, function (event) {
-            cb.apply(target, [event.detail]);
+        this.eventTarget.on(name, function (detail) {
+            cb.apply(target, [detail]);
         }, target);
     };
     NextWebSocket.prototype.once = function (name, cb, target) {
-        this.eventTarget.once(name, function (event) {
-            cb.apply(target, event.detail);
+        this.eventTarget.once(name, function (detail) {
+            cb.apply(target, [detail]);
         }, target);
     };
     NextWebSocket.prototype.offTarget = function (target) {

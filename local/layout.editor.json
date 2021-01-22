@@ -104,5 +104,15 @@
     },
     "worker": {}
   },
-  "panels": {}
+  "panels": {
+    "project-settings": {
+      "x": 352,
+      "y": 101,
+      "width": 598,
+      "height": 562
+    }
+  },
+  "panelLabelWidth": {
+    "inspector": null
+  }
 }

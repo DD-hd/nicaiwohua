@@ -140,8 +140,8 @@
     "relativePath": "res\\scenes\\login.fire"
   },
   "4a5bcc62-97e2-42d0-9bea-4ace24e5793a": {
-    "asset": 1611316649103,
-    "meta": 1611316649107,
+    "asset": 1611322748827,
+    "meta": 1611322748875,
     "relativePath": "res\\scenes\\room.fire"
   },
   "d74a946c-06e6-44f6-9146-95d1704a2ed4": {
@@ -709,11 +709,6 @@
     "meta": 1611316650729,
     "relativePath": "src\\scenes\\login"
   },
-  "36e96f39-0f15-49d5-8b81-b5648fb9426a": {
-    "asset": 1611288340808,
-    "meta": 1611316650727,
-    "relativePath": "src\\scenes\\loding\\LodingScene.ts"
-  },
   "6b80689d-dd82-45d1-8fda-40bd29599819": {
     "asset": 1611288340929,
     "meta": 1611316650808,
@@ -870,8 +865,8 @@
     "relativePath": "src\\utils\\NextStore.ts"
   },
   "f70584cf-21db-4d1c-bdb0-0e1d14d3f6f7": {
-    "asset": 1611316651167,
-    "meta": 1611316651168,
+    "asset": 1611322747504,
+    "meta": 1611322747536,
     "relativePath": "TestGraphics.prefab"
   },
   "1bb45590-632b-44ae-ad46-990194233292": {
@@ -1123,11 +1118,6 @@
     "asset": 1611288340789,
     "meta": 1611316650642,
     "relativePath": "src\\scenes\\hall\\CreateRoomPanel.ts"
-  },
-  "c5d72576-82ff-4ebb-8acb-de3cc1ffbfe4": {
-    "asset": 1611288340957,
-    "meta": 1611316651147,
-    "relativePath": "src\\utils\\NextWebSocket.ts"
   },
   "f87b515b-6222-43fd-bcbd-d9b0fcd85b45": {
     "asset": 1611288340821,
@@ -1423,5 +1413,15 @@
     "asset": 1611316642768,
     "meta": 1611316648977,
     "relativePath": "migration\\use_v2.0.x_cc.Toggle_event.js"
+  },
+  "36e96f39-0f15-49d5-8b81-b5648fb9426a": {
+    "asset": 1611316826528,
+    "meta": 1611316852973,
+    "relativePath": "src\\scenes\\loding\\LodingScene.ts"
+  },
+  "c5d72576-82ff-4ebb-8acb-de3cc1ffbfe4": {
+    "asset": 1611319798257,
+    "meta": 1611319824799,
+    "relativePath": "src\\utils\\NextWebSocket.ts"
   }
 }
