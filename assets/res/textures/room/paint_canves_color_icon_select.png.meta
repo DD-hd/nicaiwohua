@@ -1,12 +1,18 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.3.5",
   "uuid": "3910af59-f216-4aa1-aad9-ca9175768541",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 180,
+  "height": 120,
+  "platformSettings": {},
   "subMetas": {
     "paint_canves_color_icon_select": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "10cf4798-a858-46e5-83f9-3d7e73730638",
       "rawTextureUuid": "3910af59-f216-4aa1-aad9-ca9175768541",
       "trimType": "auto",

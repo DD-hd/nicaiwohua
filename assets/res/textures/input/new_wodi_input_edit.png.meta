@@ -1,12 +1,18 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.3.5",
   "uuid": "6397ad13-d524-4e5b-94c3-baf65fb61000",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 370,
+  "height": 60,
+  "platformSettings": {},
   "subMetas": {
     "new_wodi_input_edit": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "59b443c5-ee6b-44ad-afc6-d00a9217617f",
       "rawTextureUuid": "6397ad13-d524-4e5b-94c3-baf65fb61000",
       "trimType": "auto",
